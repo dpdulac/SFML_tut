@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7806F0252638AA33006B1581 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7806F0242638AA33006B1581 /* main.cpp */; };
+		7806F02F2638AE0D006B1581 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806F02E2638AE0D006B1581 /* libsfml-window.2.5.1.dylib */; };
+		7806F0352638AE86006B1581 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806F0312638AE86006B1581 /* libsfml-graphics.2.5.1.dylib */; };
+		7806F0362638AE86006B1581 /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806F0322638AE86006B1581 /* libsfml-network.2.5.1.dylib */; };
+		7806F0372638AE86006B1581 /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806F0332638AE86006B1581 /* libsfml-audio.2.5.1.dylib */; };
+		7806F0382638AE86006B1581 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7806F0342638AE86006B1581 /* libsfml-system.2.5.1.dylib */; };
+		78997DB727F8AA7A00F16CC7 /* projection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78997DB527F8AA7A00F16CC7 /* projection.cpp */; };
+		78997DBD27F9B78B00F16CC7 /* MyPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78997DBB27F9B78B00F16CC7 /* MyPoint.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,15 @@
 /* Begin PBXFileReference section */
 		7806F0212638AA33006B1581 /* SFML_tut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SFML_tut; sourceTree = BUILT_PRODUCTS_DIR; };
 		7806F0242638AA33006B1581 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7806F02E2638AE0D006B1581 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "ExternalLibrairies/SFML/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		7806F0312638AE86006B1581 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "ExternalLibrairies/SFML/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		7806F0322638AE86006B1581 /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "ExternalLibrairies/SFML/lib/libsfml-network.2.5.1.dylib"; sourceTree = "<group>"; };
+		7806F0332638AE86006B1581 /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "ExternalLibrairies/SFML/lib/libsfml-audio.2.5.1.dylib"; sourceTree = "<group>"; };
+		7806F0342638AE86006B1581 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "ExternalLibrairies/SFML/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		78997DB527F8AA7A00F16CC7 /* projection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = projection.cpp; sourceTree = "<group>"; };
+		78997DB627F8AA7A00F16CC7 /* projection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = projection.hpp; sourceTree = "<group>"; };
+		78997DBB27F9B78B00F16CC7 /* MyPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyPoint.cpp; sourceTree = "<group>"; };
+		78997DBC27F9B78B00F16CC7 /* MyPoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyPoint.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7806F0352638AE86006B1581 /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+				7806F0362638AE86006B1581 /* libsfml-network.2.5.1.dylib in Frameworks */,
+				7806F0372638AE86006B1581 /* libsfml-audio.2.5.1.dylib in Frameworks */,
+				7806F0382638AE86006B1581 /* libsfml-system.2.5.1.dylib in Frameworks */,
+				7806F02F2638AE0D006B1581 /* libsfml-window.2.5.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +64,7 @@
 			children = (
 				7806F0232638AA33006B1581 /* SFML_tut */,
 				7806F0222638AA33006B1581 /* Products */,
+				7806F02D2638AE0D006B1581 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +80,24 @@
 			isa = PBXGroup;
 			children = (
 				7806F0242638AA33006B1581 /* main.cpp */,
+				78997DB527F8AA7A00F16CC7 /* projection.cpp */,
+				78997DB627F8AA7A00F16CC7 /* projection.hpp */,
+				78997DBB27F9B78B00F16CC7 /* MyPoint.cpp */,
+				78997DBC27F9B78B00F16CC7 /* MyPoint.hpp */,
 			);
 			path = SFML_tut;
+			sourceTree = "<group>";
+		};
+		7806F02D2638AE0D006B1581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7806F0332638AE86006B1581 /* libsfml-audio.2.5.1.dylib */,
+				7806F0312638AE86006B1581 /* libsfml-graphics.2.5.1.dylib */,
+				7806F0322638AE86006B1581 /* libsfml-network.2.5.1.dylib */,
+				7806F0342638AE86006B1581 /* libsfml-system.2.5.1.dylib */,
+				7806F02E2638AE0D006B1581 /* libsfml-window.2.5.1.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78997DB727F8AA7A00F16CC7 /* projection.cpp in Sources */,
+				78997DBD27F9B78B00F16CC7 /* MyPoint.cpp in Sources */,
 				7806F0252638AA33006B1581 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +279,14 @@
 		7806F0292638AA33006B1581 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ExternalLibrairies/SFML/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibrairies/SFML/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +294,14 @@
 		7806F02A2638AA33006B1581 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ExternalLibrairies/SFML/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibrairies/SFML/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
